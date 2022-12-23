@@ -1,4 +1,5 @@
 :root{
+   
     --mainOpacity: rgba(0, 0, 0, 0.55);
 }
 
@@ -22,28 +23,35 @@ background-color: #520627 ;
 }
 
 .col-image-left {
-    background-image: url("./Images/PublicImages/image-4.jpg");
+    
+    background-image: url("./Images/PublicImages/image-9.jpg");
+  
     height: 25em !important;
 }
 
 .col-image-right {
-    background-image: url("./Images/PublicImages/image-1.jpg");
+    background-image: url("./Images/PublicImages/image-6.png");
+    width: 200;
+    height: 200;
     height: 25em !important;
 }
 
 .lost-image {
+    background-color: #520627 ;
     background-image: url("./Images/PublicImages/image-3.jpg");
     height: 25em !important;
     width: "720"
 }
 
 .homepage-carousel-title {
+
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
   }
 
 .book-div {
+    background-color: #520627 ;
     width: 480px;
     height: 384px;
 }
@@ -51,4 +59,8 @@ background-color: #520627 ;
 .inactiveLink {
     pointer-events: none;
     cursor: default;
+ }
+
+ .logo-img {
+    background-image: url("./Images/logo.png");
  }
